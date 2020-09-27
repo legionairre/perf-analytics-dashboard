@@ -12,6 +12,13 @@ PerfAnalytics.Dashboard is a dashboard which shows perf related metrics in a vis
 
 - This application has been dockerized. Automated deployment and testing have been implemented. Also, tests run before each push and deployment.
 
+- [Demo](https://perf-analytics-dashbaoard.herokuapp.com/)
+
+![Screenshot](./public/perf-analytics-dashboard.png)
+
+- IMPORTANT: Before use the dashboard you should run PerfAnalytics.API
+    - PerfAnalytics.API [Github](https://github.com/legionairre/perf-analytics-api)
+
 ## Available Scripts
 
 In the project directory, you can run:
