@@ -1,8 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+PerfAnalytics.Dashboard is a dashboard which shows perf related metrics in a visualized way.
+
+- This project
+    - written using React,
+    - has component based architecture,
+    - has a responsive layout,
+    - show the last 30 minutes of TTFB, FCP, Dom Load, and Window Load as in charts
+    - get data from PerfAnalytics.API
+    - be rendered within 2 seconds
+
+- This application has been dockerized. Automated deployment and testing have been implemented. Also, tests run before each push and deployment.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `docker-compose up -d`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 ### `npm start`
 
